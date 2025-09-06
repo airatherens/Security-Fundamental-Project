@@ -3,7 +3,7 @@ Palo Alto Networks Academy
 
 ---
 
-## 📖 Overview
+##Overview
 
 This capstone project was completed for ITSC-300.  
 The objective was to design and configure a Palo Alto Networks VM-Series firewall in a simulated enterprise environment using VMware Workstation.
@@ -12,7 +12,7 @@ Our team (Aira Therens, Gia Huy Pham, Chan Quyen Khuu) worked through a set of s
 
 ---
 
-## 🎯 Objectives
+##Objectives
 
 The lab required us to:
 
@@ -56,7 +56,7 @@ The lab required us to:
 
 ---
 
-## ✅ Verification Tests
+##Verification Tests
 
 - Internal hosts pinged firewall & DMZ.  
 - Internal hosts tested NAT connectivity to Internet.  
@@ -67,7 +67,7 @@ The lab required us to:
 
 ---
 
-## ⚠️ Project Errors
+##Project Errors
 
 ### Part 4 – URL Filtering & Sinkhole
 - Internal clients could **not access box.net** even though `online-storage-and-backup` was allowed.  
@@ -83,7 +83,7 @@ The lab required us to:
 
 ---
 
-## 🧑‍🤝‍🧑 Team Members
+##Team Members
 
 - Aira Therens  
 - Gia Huy Pham  
@@ -91,7 +91,7 @@ The lab required us to:
 
 ---
 
-## 🎓 Lessons Learned
+##Lessons Learned
 
 - Zone setup & tagging is straightforward, but NAT rules require careful scope definitions.  
 - Application filtering works well for common social media, but URL filtering is brittle (categories may overlap).  
